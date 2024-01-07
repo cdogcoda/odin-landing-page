@@ -100,6 +100,51 @@ body {
     font-weight: bolder;
 }
 
+.two {
+    color: #1F2937;
+    text-align: center;
+}
+
+.two .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.two .content {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two .info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 8px;
+}
+
+.info-card p {
+    padding: 0;
+    margin: 0;
+}
+
+.two .image-content {
+    height: 125px;
+    width: 125px;
+    border: #3882F6 3px solid;
+    border-radius: 12px;
+}
+
+.two h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
 .three {
     background-color: #E5E7EB;
 }
