@@ -153,9 +153,25 @@ body {
 }
 
 .three .container {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
+    /* border: red 2px solid; */
+}
+
+.three .quote-content {
+    margin: 0;
+    font-size: 36px;
+    /* border: red 2px solid; */
+}
+
+.three .quote-author {
+    margin: 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    /* border: red 2px solid; */
 }
 
 .four {
