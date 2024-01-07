@@ -178,8 +178,31 @@ body {
     justify-content: flex-end;
 }
 
+.four .container {
+    border: red 2px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.four .media {
+    margin: 0;
+    background-color: #3882F6;
+}
+
+.four h4 {
+    margin: 0;
+}
+
 .footer {
     background-color: #1F2937;
     height: 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
