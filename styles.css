@@ -173,13 +173,13 @@ body {
 }
 
 .four {
+    color: #F9FAF8;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
 .four .container {
-    border: red 2px solid;
     width: 80%;
     margin: 0 auto;
     padding: 0;
@@ -188,19 +188,40 @@ body {
     align-items: center;
 }
 
+.four .content {
+    width: 100%;
+}
+
 .four .media {
-    margin: 0;
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 84px;
+    border-radius: 6px;
+}
+
+.four h4, .four p{
+    margin: 0;
 }
 
 .four h4 {
-    margin: 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.four button {
+    height: 100%;
+    padding: 4px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 1px solid;
+    border-radius: 4px;
 }
 
 .footer {
     background-color: #1F2937;
     height: 100px;
-    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
