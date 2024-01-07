@@ -1,13 +1,9 @@
-* {
-    /* border: red 2px solid; */
-}
-
 body {
     margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 225vh;
+    height: 1750px;
     width: 1000px;
     font-family: "Roboto", sans-serif;
 }
