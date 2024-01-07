@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 1000px;
+}
+
+.one, .two, .three, .four {
+    /* border: red 2px solid; */
+    flex: 1;
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+}
+
