@@ -134,6 +134,7 @@ body {
 }
 
 .two .image-content {
+    box-sizing: border-box;
     height: 125px;
     width: 125px;
     border: #3882F6 3px solid;
@@ -147,6 +148,14 @@ body {
 
 .three {
     background-color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.three .container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .four {
